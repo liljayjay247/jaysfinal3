@@ -1,7 +1,9 @@
-body {border-color: red;
+
+h1 {border-color: red;
         box-sizing: border-box;
         background-color:blue;
         font-weight: bold;
+    }
 
 sub {font-style:italic; 
     background-color: red;
@@ -15,18 +17,22 @@ sub {font-style:italic;
         text-align: center;
     }
 
-img.small{
-        max-height: 20px;
-        max-width: 20px;
+img.large{
+        max-height: 100px;
+        max-width:1000 px;
+        margin: content-box;
+        overflow: clip;
+        overflow: x 1000px; 
+        overflow: y 1000px; 
     }
-
-.toggle-button{
+.stoggle-button{
             display: block;
     }
 
-.navbar{
+navbar{
         display: none;
         flex-direction: column;
 
     }
+}
 }

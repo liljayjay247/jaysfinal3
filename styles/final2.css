@@ -1,28 +1,4 @@
-/*css/*
 
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    width:200px
-    font-size:100em
-    color:blue;
-    font-family:Arial, sans-serif;
-    background:#f2f2f2;
-    padding:20px;
-}
-
-.container{
-    max-width:1200px;
-    margin:auto;
-    background:white;
-}
-
-/* TOP */
 
 .top-grid{
     display:grid;
@@ -35,7 +11,7 @@ body{
 
 .middle-grid{
     display:grid;
-    grid-template-columns:2fr 1fr;
+    grid-template-columns:2 1fr;
     gap:20px;
     padding:20px;
 }
@@ -47,7 +23,7 @@ body{
 }
 
 .card{
-    border:1px solid #ddd;
+    border:5px solid #ddd;
 }
 
 .card img{
@@ -56,16 +32,19 @@ body{
 }
 
 .card h3{
+    width:15%;
     padding:10px;
     font-size:16px;
 }
 
 .specs{
+    width:15%;
     background:#efefef;
     padding:20px;
 }
 
 .specs h2{
+    width:15%;
     margin-bottom:15px;
 }
 
@@ -77,10 +56,8 @@ body{
     margin-bottom:10px;
 }
 
-/* BOTTOM */
-
 .bottom-section{
-    padding:20px;
+    padding: 15px;
 }
 
 .hero-image img{
