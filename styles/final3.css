@@ -1,21 +1,32 @@
-h1 {
-    background-color:red;
-    font-style:bold;
-    margin:5em;
-    padding:10em;
-    color:white;
-}
-sub {font-style:italic;
+body {border-color: red;
+        box-sizing: border-box;
+        background-color:blue;
+        font-weight: bold;
+
+sub {font-style:italic; 
     background-color: red;
-    color:white;
+    color: white;
 }
 
-h2 {
-    font-style:bold;
-    font-size:36em;
-    position-area:center;
-}
+    @media screen and (max-width:240px) {
+ h2 {
+        font-weight: bold;
+        font-size: 36em;
+        text-align: center;
+    }
+
 img.small{
-    height: max 20px;
-    width: max 20px;
+        max-height: 20px;
+        max-width: 20px;
+    }
+
+.toggle-button{
+            display: block;
+    }
+
+.navbar{
+        display: none;
+        flex-direction: column;
+
+    }
 }
